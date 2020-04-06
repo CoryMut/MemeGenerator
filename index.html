@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <title>Meme Generator</title>
+</head>
+<body> 
+<section class="form-wrapper">
+    <h1> <span>Spicy</span> Meme Generator</h1>
+    <form id="mainForm" class="container">
+        <div class="form-group">
+            <label for="URL">Image URL</label>
+            <input class="form-control" type="text" placeholder="URL of image to be made a meme" name="URL" id="URL">
+        </div>
+        <div class="form-group">
+            <label for="topText">Top Text</label>
+            <input class="form-control" type="text" placeholder="Top line of text on image" name="topText" id="topText">
+        </div>
+        <div class="form-group">
+            <label for="bottomText">Bottom Text</label>
+            <input class="form-control" type="text" placeholder="Bottom line of text on image" name="bottomText" id="bottomText">
+        </div>
+        <button id="addMeme" type="submit" class="btn btn-dark">Add Meme</button>
+    </form>
+</section>
+    <div class="container" id="content">
+        
+    </div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
